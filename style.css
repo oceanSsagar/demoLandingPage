@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", 'Courier New', Courier, monospace;
+    
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}   
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+
+    & img {
+        width: 450px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+        ;
+    }
+
+    & .content_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    border-radius: 3px;
+    border: none;
+    border-radius: 3px;
+    /* box-shadow: 0px 0px 2px 2px rgb(0,0,0); */
+    width: 130px;
+    height: 40px;
+}
+
+body {
+    margin: 5px;
+    background-color: white;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:30px;
+    & h1 {
+        color: #f9faf8;
+        font-size: 24px;
+    }
+}
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+
+    & h1 {
+        font-size: 48px;
+        color: #F9FAF8;
+        font-weight: 900;
+    }
+
+    & p {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+    
+} */
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.employees {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+
+    & ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        list-style-type: none;
+        width: 200px;
+        gap: 5px;
+
+        & li {
+            flex-wrap: wrap;
+            margin:40px;
+        }
+
+    }   
+
+}
+
+
+
+.employees img {
+    height: 320px;
+    width: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.employees h2 {
+    font-size: 28px;
+    color: #000000;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 22px;
+    padding: 5%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+
+.signup_banner {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+
+    & button {
+        border: 4px white solid;
+        border-radius: 15px;
+
+        &:hover {
+            background-color: #316bc9;
+        }
+    }
+}
+
+footer {
+    background-color: #1F2937;
+    font-size: 28px;
+    color: #E5E7EB;
+    Text-align: center;
+    padding: 30px 0px 30px 0px;
+}
